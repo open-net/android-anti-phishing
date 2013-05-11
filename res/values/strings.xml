@@ -4,5 +4,19 @@
     <string name="app_name">오픈넷</string>
     <string name="menu_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="exit">Back키를 한 번 더 누르면 종료됩니다.</string>
+    <string name="move_to_settings">보안 설정 화면으로 이동합니다.</string>
+    <string name="danger_1">귀하의 스마트폰은 \'알 수 없는 소스\'에서 내려받은 앱을 설치할 수 있도록 설정되어 있습니다.></string>
+    <string name="danger_2">이미 그렇게 해 두었거나, 이 앱을 설치하는 과정에서 귀하께서 직접 그렇게 했습니다.</string>
+    <string name="danger_3">이렇게 해 두면 악성앱이 귀하의 스마트폰에 쉽게 설치될 수 있고, 스미싱 피해를 당하기 쉽습니다.</string>
+    <string name="danger_4">* 이 화면을 옆으로 밀면 더 중요한 안내가 있어요.</string>
+    <string name="fineapps_1">금융앱스토어를 설치하고 사용하더라도, 해커가 이런식으로 귀하의 스마트폰에 악성앱을 설치하는 것을 막을 수는 없습니다.</string>
+    <string name="fineapps_2">만일 이 앱이 악성앱이었다면, 귀하는 이미 걸려든 것입니다.</string>
+    <string name="fineapps_3">피싱 피해를 줄일 수 있는 유일한 방법은 함부로 앱을 설치하지 않는 것입니다.</string>
+    <string name="fineapps_4">금융기관이 권유하는 \'알 수 없는 소스\' 에서 내려받는 앱을 설치한다고 안전해 지는 것이 아닙니다. 오히려 더 위험합니다.</string>
+    <string name="secure_1">지금 바로 설정을 변경해 주세요. \'알 수 없는 소스\'를 허용하지 않도록 하는 것이 귀하의 스마트폰 보호에 도움이 됩니다.</string>
+    <string name="secure_2">피싱방지앱? 그런 건 없어요. 속지마세요~</string>
+    <string name="secure_3">* 이 앱은 피싱앱의 위험을 경고하고, 금결원이 내세우는 금융앱스토어가 왜 소용이 없는지 설명하기 위하여 오픈넷(http://opennet.or.kr)이 배포한 것입니다.</string>
+    <string name="secure_4">* 이 앱은 사용자의 개인정보를 수집하지 않습니다.</string>
 
 </resources>

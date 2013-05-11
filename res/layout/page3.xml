@@ -62,9 +62,9 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="지금 바로 설정을 변경해 주세요. &apos;알 수 없는 소스&apos;를 허용하지 않도록 하는 것이 귀하의 스마트폰 보호에 도움이 됩니다."
+            android:text="@string/secure_1"
             android:textColor="#4382a0"
-            android:textSize="11sp" />
+            android:textSize="10sp" />
 
         <TextView
             android:id="@+id/textView3"
@@ -76,7 +76,7 @@
             android:paddingLeft="6dip"
             android:paddingRight="6dip"
             android:paddingTop="2dip"
-            android:text="피싱방지앱? 그런 건 없어요. 속지마세요~"
+            android:text="@string/secure_2"
             android:textColor="#ffffff"
             android:textSize="11sp"
             android:textStyle="bold" />
@@ -86,7 +86,7 @@
             android:layout_width="160dip"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="7dip"
+            android:layout_marginTop="5dip"
             android:adjustViewBounds="true"
             android:src="@drawable/btn_main" />
 
@@ -94,19 +94,20 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="6dip"
-            android:text="이 앱은 피싱앱의 위험을 경고하고, 금결원이 내세우는 금융앱스토어가 왜 소용이 없는지를 설명하기 위하여."
+            android:layout_marginTop="5dip"
+            android:autoLink="web"
+            android:text="@string/secure_3"
             android:textColor="#bc3838"
-            android:textSize="10sp" />
+            android:textSize="9sp" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="6dip"
-            android:text="* 이 앱은 사용자의 개인정보를 수집하지 않습니다."
+            android:layout_marginTop="4dip"
+            android:text="@string/secure_4"
             android:textColor="#bc3838"
-            android:textSize="10sp"
+            android:textSize="9sp"
             android:visibility="invisible" />
     </LinearLayout>
 

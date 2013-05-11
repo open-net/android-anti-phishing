@@ -10,7 +10,6 @@ import android.provider.Settings;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.text.Html;
-import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
@@ -48,7 +47,7 @@ public class PageActivity extends Activity {
 
 		} else {
 
-			Toast.makeText(PageActivity.this, "Back키를 한 번 더 누르면 종료됩니다.",
+			Toast.makeText(PageActivity.this, getString(R.string.exit),
 					Toast.LENGTH_SHORT).show();
 
 			backKey = true;
@@ -118,7 +117,7 @@ public class PageActivity extends Activity {
 					public void onClick(View v) {
 						// TODO Auto-generated method stub
 
-						Toast.makeText(PageActivity.this, "보안 설정 화면으로 이동합니다. ",
+						Toast.makeText(PageActivity.this, getString(R.string.move_to_settings),
 								Toast.LENGTH_SHORT).show();
 
                         final String targetSetting;
@@ -135,13 +134,6 @@ public class PageActivity extends Activity {
 
 					}
 				});
-
-				String HtmlString =
-
-				"* 이 앱은 피싱앱의 위험을 경고하고, 금결원이 내세우는 금융앱스토어가 왜 소용이 없는지를 설명하기 위하여 오픈넷  <a href=\"http://opennet.or.kr\">(http://opennet.or.kr)</a> 이 배포한 앱입니다.";
-
-				textView4.setText(Html.fromHtml(HtmlString));
-				textView4.setMovementMethod(LinkMovementMethod.getInstance());
 
 			}
 
