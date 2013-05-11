@@ -4,12 +4,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Parcelable;
 import android.provider.Settings;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
@@ -24,7 +21,6 @@ public class PageActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.page);
 
@@ -40,7 +36,6 @@ public class PageActivity extends Activity {
 
 		@Override
 		public void destroyItem(View arg0, int arg1, Object arg2) {
-			// TODO Auto-generated method stub
 			View view = (View) arg2;
 			((ViewPager) arg0).removeView((View) view);
 			view = null;
@@ -48,26 +43,22 @@ public class PageActivity extends Activity {
 
 		@Override
 		public boolean isViewFromObject(View pager, Object obj) {
-			// TODO Auto-generated method stub
 			return pager == obj;
 
 		}
 
 		@Override
 		public int getCount() {
-			// TODO Auto-generated method stub
 			return 3;// jsonarray.length();
 		}
 
 		@Override
 		public void notifyDataSetChanged() {
-			// TODO Auto-generated method stub
 			super.notifyDataSetChanged();
 		}
 
 		@Override
 		public Object instantiateItem(View pager, int position) {
-			// TODO Auto-generated method stub
 			View v = null;
 
 			if (position == 0) {
@@ -84,8 +75,6 @@ public class PageActivity extends Activity {
 
 					@Override
 					public void onClick(View v) {
-						// TODO Auto-generated method stub
-
 						Toast.makeText(PageActivity.this, getString(R.string.move_to_settings),
 								Toast.LENGTH_SHORT).show();
 
@@ -109,24 +98,6 @@ public class PageActivity extends Activity {
 			((ViewPager) pager).addView(v);
 			return v;
 
-		}
-
-		@Override
-		public void restoreState(Parcelable arg0, ClassLoader arg1) {
-			// TODO Auto-generated method stub
-		}
-
-		@Override
-		public Parcelable saveState() {
-			return null;
-		}
-
-		@Override
-		public void startUpdate(View view) {
-		}
-
-		@Override
-		public void finishUpdate(View arg0) {
 		}
 	}
 

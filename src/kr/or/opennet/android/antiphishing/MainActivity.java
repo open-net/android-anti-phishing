@@ -18,7 +18,6 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void run() {
-				// TODO Auto-generated method stub
 				Intent intent = new Intent(MainActivity.this,
 						PageActivity.class);
 				intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -28,10 +27,5 @@ public class MainActivity extends Activity {
 
 			}
 		}, 1200);
-	}
-
-	@Override
-	public void onBackPressed() {
-		// TODO Auto-generated method stub
 	}
 }
