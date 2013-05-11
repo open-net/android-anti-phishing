@@ -2,6 +2,7 @@ package com.example.com.opennet.safe;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Parcelable;
@@ -118,8 +119,15 @@ public class PageActivity extends Activity {
 
 						Toast.makeText(PageActivity.this, "보안 설정 화면으로 이동합니다. ",
 								Toast.LENGTH_SHORT).show();
-						Intent intent = new Intent(
-								android.provider.Settings.ACTION_SECURITY_SETTINGS);
+
+                        final String targetSetting;
+                        if (Build.VERSION.SDK_INT <= 10) {
+                            targetSetting = Settings.ACTION_APPLICATION_SETTINGS;
+                        } else {
+                            targetSetting = Settings.ACTION_SECURITY_SETTINGS;
+                        }
+
+                        Intent intent = new Intent(targetSetting);
 						intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 
 						startActivity(intent);
