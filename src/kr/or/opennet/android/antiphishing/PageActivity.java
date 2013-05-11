@@ -1,4 +1,4 @@
-package com.example.com.opennet.safe;
+package kr.or.opennet.android.antiphishing;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -16,6 +16,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import kr.or.opennet.android.antiphishing.R;
 
 public class PageActivity extends Activity {
 

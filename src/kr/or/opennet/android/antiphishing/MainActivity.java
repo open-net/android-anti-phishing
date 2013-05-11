@@ -1,10 +1,10 @@
-package com.example.com.opennet.safe;
+package kr.or.opennet.android.antiphishing;
 
 import android.os.Bundle;
 import android.os.Handler;
 import android.app.Activity;
 import android.content.Intent;
-import android.view.Menu;
+import kr.or.opennet.android.antiphishing.R;
 
 public class MainActivity extends Activity {
 
