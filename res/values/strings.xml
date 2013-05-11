@@ -2,7 +2,6 @@
 <resources>
 
     <string name="app_name">피싱 방지 앱</string>
-    <string name="exit">Back키를 한 번 더 누르면 종료됩니다.</string>
     <string name="move_to_settings">보안 설정 화면으로 이동합니다.</string>
     <string name="danger_1">귀하의 스마트폰은 \'알 수 없는 소스\'에서 내려받은 앱을 설치할 수 있도록 설정되어 있습니다.></string>
     <string name="danger_2">이미 그렇게 해 두었거나, 이 앱을 설치하는 과정에서 귀하께서 직접 그렇게 했습니다.</string>

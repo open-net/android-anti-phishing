@@ -36,37 +36,6 @@ public class PageActivity extends Activity {
 
 	}
 
-	boolean backKey = false;
-
-	@Override
-	public void onBackPressed() {
-		// TODO Auto-generated method stub
-
-		if (backKey) {
-			finish();
-
-		} else {
-
-			Toast.makeText(PageActivity.this, getString(R.string.exit),
-					Toast.LENGTH_SHORT).show();
-
-			backKey = true;
-
-			Handler hd = new Handler();
-			hd.postDelayed(new Runnable() {
-
-				@Override
-				public void run() {
-					// TODO Auto-generated method stub
-
-					backKey = false;
-				}
-			}, 2000);
-
-		}
-
-	}
-
 	public class IntroAdapter extends PagerAdapter {
 
 		@Override
