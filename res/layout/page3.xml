@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:text="@string/secure_1"
             android:textColor="#4382a0"
-            android:textSize="10sp" />
+            android:textSize="11sp" />
 
         <TextView
             android:id="@+id/textView3"
@@ -78,7 +78,7 @@
             android:paddingTop="2dip"
             android:text="@string/secure_2"
             android:textColor="#ffffff"
-            android:textSize="10sp"
+            android:textSize="11sp"
             android:textStyle="bold" />
 
         <ImageView
