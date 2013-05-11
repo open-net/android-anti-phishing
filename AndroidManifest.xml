@@ -8,7 +8,7 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
 
-    <supports-screens android:compatibleWidthLimitDp="320" />
+    <supports-screens android:largestWidthLimitDp="320" />
 
     <application
         android:allowBackup="true"
