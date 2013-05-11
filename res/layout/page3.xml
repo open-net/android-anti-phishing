@@ -104,7 +104,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dip"
-            android:text="* 이 앱을 사용자의 개인정보를 수집하지 않습니다."
+            android:text="* 이 앱은 사용자의 개인정보를 수집하지 않습니다."
             android:textColor="#bc3838"
             android:textSize="10sp"
             android:visibility="invisible" />
