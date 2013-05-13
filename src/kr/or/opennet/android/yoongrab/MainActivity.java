@@ -1,10 +1,9 @@
-package kr.or.opennet.android.antiphishing;
+package kr.or.opennet.android.yoongrab;
 
 import android.os.Bundle;
 import android.os.Handler;
 import android.app.Activity;
 import android.content.Intent;
-import kr.or.opennet.android.antiphishing.R;
 
 public class MainActivity extends Activity {
 
